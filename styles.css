@@ -111,3 +111,7 @@ Phone: +2348068216482
     width: 50px;
 
 }
+#top-recruiters div img {
+    max-width: 128px;
+    margin: 10px 20px;
+}
