@@ -111,6 +111,7 @@ h3::before {
     width: 50px;
 
 }
+
 #top-recruiters div img {
     max-width: 128px;
     margin: 10px 20px;
@@ -126,13 +127,15 @@ h3::before {
     box-shadow: 0 2px 70px 0 rgba(110, 130, 208, .18);
     border-radius: 5px;
     margin-bottom: 20px;
-    
+
 }
+
 .job-update {
     background: white;
     border-radius: 5px;
     padding: 10px 20px;
 }
+
 .job-update .fa {
     margin-top: 5px;
     margin-right: 10px;
@@ -144,14 +147,17 @@ h3::before {
     padding: 1px 5px;
     margin: 0 5px;
 }
+
 .job-update p {
     margin-bottom: 0 !important;
 }
+
 .job-update a {
-text-decoration: none !important;
+    text-decoration: none !important;
     color: #b6bed2;
     float: right;
 }
+
 .apply-button {
     height: 40px;
     background-image: linear-gradient(90deg, rgba(94, 204, 29, 1) 40%, rgba(24, 215, 139, 1) 100%);
@@ -160,6 +166,7 @@ text-decoration: none !important;
     border-bottom-right-radius: 5px;
 
 }
+
 .apply-button .btn-primary {
     padding: 0 30px;
     float: right;
@@ -178,14 +185,18 @@ text-decoration: none !important;
     cursor: pointer;
 
 }
-.pagelink li:hover, .active {
-color: white;
-background-image: linear-gradient(90deg, rgba(94, 204, 29, 1) 40%, rgba(24, 215, 139, 1) 100%);
-    
+
+.pagelink li:hover,
+.active {
+    color: white;
+    background-image: linear-gradient(90deg, rgba(94, 204, 29, 1) 40%, rgba(24, 215, 139, 1) 100%);
+
 }
+
 .left-arrow {
     color: #999;
 }
+
 .right-arrow {
     color: #29b929;
 }
@@ -205,8 +216,9 @@ background-image: linear-gradient(90deg, rgba(94, 204, 29, 1) 40%, rgba(24, 215,
     box-shadow: 0 2px 40px 0 rgba(110, 120, 130, .18);
     border-radius: 8px;
     margin: 20px 0;
-    
+
 }
+
 .stats .fa {
     font-size: 25px;
     margin-right: 10px;
@@ -215,12 +227,11 @@ background-image: linear-gradient(90deg, rgba(94, 204, 29, 1) 40%, rgba(24, 215,
 
 /*********************APP BANNER**********************/
 #app-banner {
-background-image: linear-gradient(90deg, rgba(94, 204, 29, 1) 40%, rgba(24, 215, 139, 1) 100%);
+    background-image: linear-gradient(90deg, rgba(94, 204, 29, 1) 40%, rgba(24, 215, 139, 1) 100%);
     padding-top: 50px;
     padding-bottom: 70px
-
-   
 }
+
 #app-banner h1 {
     color: white;
 }
@@ -228,4 +239,34 @@ background-image: linear-gradient(90deg, rgba(94, 204, 29, 1) 40%, rgba(24, 215,
 #app-banner img {
     width: 150px;
     margin-top: 30px
+}
+
+/*********************FOOTER**********************/
+#footer {
+    background: #f8f9fd;
+    padding: 20px 10px 8px;
+}
+
+#footer h1 {
+    color: #333;
+    font-family: cursive;
+}
+
+#footer p {
+    color: #333;
+}
+
+#footer a .fa {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+#footer p .fa {
+    font-size: 25;
+    color: red;
+
+}
+
+#footer p a {
+    text-decoration: none;
 }
